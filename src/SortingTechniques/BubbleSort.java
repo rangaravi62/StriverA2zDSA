@@ -1,9 +1,12 @@
 package src.SortingTechniques;
 
+
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
+
+    //TC : 0(N^2)
+    public static void main(String [] args) {
         int arr[]={55,34,34,62,92,5,29};
         for (int i = 0; i < arr.length-1; i++) {
             int max = i;
